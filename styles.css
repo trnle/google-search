@@ -1,0 +1,128 @@
+/* hyperlinks in right corner of pages */
+a:link, a:visited {
+    color: black;
+    float: right;
+    padding: 10px 10px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: gray;
+    text-decoration: underline;
+}
+
+img {
+    position: relative;
+    top: 70px;
+    left: 520px;
+}
+/* search bar on Google search and image search pages */
+#search {
+    background-image: url('searchicon.png');
+    background-position: 15px 15px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    left: 32%;
+    line-height: 43px;
+    position: absolute;
+    top: 37%;
+    width: 37%;
+    border-radius: 40px;
+    border-color: lightgray;
+    border-width: thin;
+    border-style: solid;
+    outline: none;
+}
+
+#search:hover {
+    outline: none;
+    box-shadow: 0px 0px 10px lightgray;
+}
+/* submit button features */
+#submit:hover, #lucky:hover, #advSubmit:hover {
+    box-shadow: 0px 0px 2px gray;
+}
+
+#submit, #lucky{
+    height: 37px;
+    position: absolute;
+    top: 47%;
+    border-radius: 5px;
+    border-radius: 6px;
+    border-color: #ededed;
+    border-width: 1px;
+    border-style: solid;
+    color: #606060;
+}
+
+#advSubmit {
+    width: 136px;
+    left: 46%;
+    height: 33px;
+    position: absolute;
+    top: 51%;
+    border-radius: 3px;
+    border-width: 1px;
+    border-style: solid;
+    color: white;
+    background-color: #1f7be4;
+}
+
+#submit {
+    width: 120px;
+    left: 42%;
+}
+
+#lucky {
+    width: 145px;
+    left: 51%;
+}
+/* advanced search page features */
+#topLine {
+    height: 50px;
+    border-style: none;
+}
+
+#bottomLine {
+    color: #ededed;
+    border-style: solid;
+}
+
+#find, #advSearch, a, p {
+    font-family: Helvetica;
+}
+
+#advTitle {
+    color: #cc0000;
+    margin-left: 34px;
+    font-size: 20px;
+}
+
+#find {
+    margin-left: 15px;
+    font-size: 16px;
+}
+
+#advSearch {
+    margin-left: 20px;
+    margin-top: 50px;
+    font-size: 13px;
+}
+
+label {
+    width: 165px;
+    display: inline-block;
+    margin: 14px;
+}
+
+/* textboxes for advanced searches */
+#all, #exact, #any, #none {
+    height: 25px;
+    width: 560px;
+    padding-left: 10px;
+    border-color: lightgray;
+    border-style: solid;
+    border-radius: 2px;
+    border-width: 1px;
+}
