@@ -4,3 +4,4 @@ Front-end of Google designed using HTML and CSS. On the Google Search page, when
 
 # Demo
 ![Search Demo](demo.gif)
+
